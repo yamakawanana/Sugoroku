@@ -1,0 +1,61 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Sugoroku",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"UMG",
+				"AIModule"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AnimDistanceMatching",
+			"Enabled": true
+		},
+		{
+			"Name": "AnimationActorSystem",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/300fa96794fc4916be6a1db151a72477"
+		},
+		{
+			"Name": "AnimationBudgetAllocator",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayInsights",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkCurveDebugUI",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLinkControlRig",
+			"Enabled": true
+		},
+		{
+			"Name": "RigLogic",
+			"Enabled": true
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
+		},
+		{
+			"Name": "Landmass",
+			"Enabled": true
+		}
+	]
+}
